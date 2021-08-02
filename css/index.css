@@ -45,7 +45,7 @@ p {
 
 .btn:hover {
     background-color: white;
-    color: black;
+    color: white;
     cursor: pointer;
 }
 
@@ -62,7 +62,7 @@ p {
 
 .btn2:hover {
     background-color: white;
-    color: black;
+    color: white;
     cursor: pointer;
 }
 
