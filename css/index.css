@@ -46,6 +46,7 @@ p {
 .btn:hover {
     background-color: white;
     color: white;
+    text-decoration-color: black;
     cursor: pointer;
 }
 
