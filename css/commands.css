@@ -5,6 +5,7 @@ body {
     background-repeat: no-repeat;
     max-width: 100%;
     overflow-x: hidden;
+    overflow-y: hidden;
 }
 
 h1 {
