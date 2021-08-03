@@ -15,6 +15,11 @@ h1 {
     text-decoration: underline;
 }
 
+img {
+  width: 415px;
+  height: 415px;
+}
+
 * {
     margin: 0;
     padding: 0;
