@@ -22,10 +22,11 @@ h1 {
   }
 
 p {
-  font-size: 25px;
+  font-size: 27px;
   color: wheat;
   position: relative;
   left: 30px;
+  top: 2cm;
 }
   
   
