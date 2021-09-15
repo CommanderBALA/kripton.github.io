@@ -18,10 +18,12 @@ h1 {
 .prof1 {
   width: 15px;
   height: 15px;
+  position: relative;
 }
 .prof2 {
   width: 35px;
   height: 35px;
+  position: relative;
 }
 
 * {
