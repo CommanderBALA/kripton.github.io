@@ -16,8 +16,12 @@ h1 {
 }
 
 .prof1 {
-  width: 800px;
-  height: 600px;
+  width: 50px;
+  height: 50px;
+}
+.prof2 {
+  width: 50px;
+  height: 50px;
 }
 
 * {
