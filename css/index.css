@@ -41,6 +41,7 @@ p {
     border-radius: 30px;
     border: 2.5px solid;
     outline: 0;
+    position: relative;
 }
 
 .btn:hover {
@@ -59,6 +60,7 @@ p {
     border-radius: 30px;
     border: 2.5px solid;
     outline: 0;
+    position: relative;
     top: 10px;
 }
 
