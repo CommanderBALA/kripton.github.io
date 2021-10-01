@@ -1,71 +1,4 @@
-body {
-  background-color: #121212;
-    background-size: cover;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    max-width: 100%;
-    overflow-x: hidden;
-    overflow-y: visible;
-}
-
-h1 {
-    font-size: 70px;
-    font-family: 'Courier New';
-    color: #7289da;
-    text-align: center;
-    text-decoration: underline;
-    position: relative;
-    top: 35px;
-}
-
-* {
-    margin: 0;
-    padding: 0;
-  }
-
-p {
-  font-size: 27px;
-  color: #fff;
-  position: relative;
-  top: 180px;
-  text-align: center;
-  padding: 100px 0;
-  background-color: transparent;
-}
-
-.container {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  align-items: center;
-  position: relative;
-  top: 180px;
-  right: 120px;
-}
-
-.btn-1 {
-width: 200px;
-height: 80px;
-color: wheat;
-background-color: rgb(117, 2, 2);
-border-radius: 20px;
-box-shadow: inset 0 0 rgb(182, 0, 0);
-transition: ease-out 0.3s;
-font-size: 1.1rem;
-left: 3.5cm;
-position: relative;
-outline: none;
-border: none;
-cursor: pointer;
-}
-
-.btn-1:hover {
-box-shadow: inset 200px 0 0 0 rgb(180, 1, 1);
-color: white;
-}
-  
-  
-  .navbar {
+.navbar {
     width: 230px;
     height: 100%;
     background-color: #4F4F4E;
@@ -78,11 +11,11 @@ color: white;
     border-radius: 100% 0 0 100%;
     transition: right 0.8s cubic-bezier(1, 0, 0, 1);
   }
-  
+    
   .change {
     right: 0;
   }
-  
+    
   .hamburger-menu {
     width: 35px;
     height: 30px;
@@ -94,35 +27,35 @@ color: white;
     flex-direction: column;
     justify-content: space-around;
   }
-  
+    
   .line {
     width: 100%;
     height: 3px;
     background-color: chocolate;
     transition: all 0.8s;
   }
-  
+    
   .change .line-1 {
     transform: rotateZ(-405deg) translate(-8px, 6px);
   }
-  
+    
   .change .line-2 {
     opacity: 0;
   }
-  
+    
   .change .line-3 {
     transform: rotateZ(405deg) translate(-8px, -6px);
   }
-  
+    
   .nav-list {
     text-align: right;
   }
-  
+    
   .nav-item {
     list-style: none;
     margin: 25px;
   }
-  
+    
   .nav-link {
     text-decoration: none;
     font-size: 22px;
@@ -133,7 +66,7 @@ color: white;
     position: relative;
     padding: 3px 0;
   }
-  
+    
   .nav-link::before,
   .nav-link::after {
     content: "";
@@ -145,17 +78,17 @@ color: white;
     transform: scaleX(0);
     transition: transform 0.5s;
   }
-  
+    
   .nav-link::after {
     bottom: 0;
     transform-origin: right;
   }
-  
+    
   .nav-link::before {
     top: 0;
     transform-origin: left;
   }
-  
+    
   .nav-link:hover::before,
   .nav-link:hover::after {
     transform: scaleX(1);

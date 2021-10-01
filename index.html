@@ -2,8 +2,7 @@
 
 <html>
     <head>
-
-    
+  
     <meta charset="utf-8" />
     <meta lang="hu" />
     <title>
@@ -11,23 +10,32 @@
     </title>
     <link rel="icon" href="./pictures/icon2.png" />
     <link href="./css/index.css" rel="stylesheet" type="text/css">
+    <link href="./css/általános/nav.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/relesases/v5.0.0/css/all.css">
+    <link href="./css/általános/scroll.css" rel="stylesheet" type="text/css">
+    
+    
+    
 
     </head>
 
     <body>
 
-        <a href="https://discord.com/api/oauth2/authorize?client_id=873430457289703494&permissions=8&scope=bot" target="_blank">
-            <button class="btn">
-                Bot behívása
-            </button>
-        </a>
 
+      <div class="container">
         <a href="https://discord.gg/44VAMDfpHY" target="_blank">
-            <button class="btn2">
-                Support szerver
-            </button>
-        </a>
-
+          <button class="btn-1">
+               Support Szerver
+           </button>
+          </a>
+        <a href="https://discord.com/api/oauth2/authorize?client_id=873430457289703494&permissions=8&scope=bot" target="_blank">
+          <button class="btn-2">
+               Bot Behívása
+           </button>
+          </a>
+      </div> 
+        
+      <!--<a href="javascript:alert('EZ egy random allert!');">Execute JavaScript</a>-->
 
         <h1>
             Kripton-bot
@@ -36,7 +44,11 @@
         <img src="./pictures/icon2.png" alt="Icon">
 
         <p>
-            Helló ez a Kripton discord bot hivatalos webodala.<br>Itt megtalálhatod:<br>• A teljes parancslistát <br>• Információkat<br><br>Jó szórakozást a bothoz!
+            Helló ez a Kripton discord bot hivatalos webodala!<br><br>
+            Itt megtalálod:<br>
+            • A teljes parancslista <br>
+            • Információk<br><br>
+            Jó szórakozást a bothoz!
         </p>
 
         <div>
@@ -60,8 +72,35 @@
               </ul>
             </nav>
           </div>
+
+          <div class="middle">
+              <div class="inner-width">
+                <div class="col">
+                  <div class="emoji">📖</div>
+                  <div class="num">64</div>
+                  <div class="szamlaloszoveg">Parancs</div>
+                </div>
+              </div>
+          </div>
+          <div class="middle-1">
+            <div class="inner-width">
+              <div class="col">
+                <div class="emoji">👥</div>
+                <div class="num">60</div> 
+                <div class="szamlaloszoveg">Felhasználó</div>
+              </div>
+            </div>
+        </div>
       
           <script src="script.js"></script>
+
+          <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.js"></script>
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"></script>
+
+          <script type="text/javascript">
+            $(".num").counterUp({delay: 10, time:1000});
+          </script>        
 
     </body>
 
