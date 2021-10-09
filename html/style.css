@@ -24,12 +24,12 @@ flex-direction: column;
     width: 60%;
     border: none;
     outline: none;
-    transition: 2.0s;
+    transition: 0.8s;
     margin: auto;
 }
 .faq-body{
     margin: auto;
-    /* text-align: center; */
+   text-align: center; 
    width: 50%; 
    padding: auto;
    
