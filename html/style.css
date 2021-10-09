@@ -18,10 +18,10 @@ flex-direction: column;
 }
 /* Style the buttons that are used to open and close the faq-page body */
 .faq-page {
-    /* background-color: #eee; */
+    background-color: #000000;
     color: #121212;
     cursor: pointer;
-    padding: 30px 0;
+    padding: 30px 20px;
     width: 60%;
     border: none;
     outline: none;
@@ -29,7 +29,7 @@ flex-direction: column;
     margin: auto;
 }
 .faq-body{
-    margin: auto;
+   margin: auto;
    text-align: center; 
    width: 50%; 
    padding: auto;
@@ -38,7 +38,7 @@ flex-direction: column;
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
 .active,
 .faq-page:hover {
-    background-color: #121212;
+    background-color: #000000;
 }
 /* Style the faq-page panel. Note: hidden by default */
 .faq-body {
