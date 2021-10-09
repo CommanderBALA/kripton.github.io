@@ -24,7 +24,7 @@ flex-direction: column;
     width: 60%;
     border: none;
     outline: none;
-    transition: 0.4s;
+    transition: 2.0s;
     margin: auto;
 }
 .faq-body{
@@ -42,7 +42,7 @@ flex-direction: column;
 /* Style the faq-page panel. Note: hidden by default */
 .faq-body {
     padding: 0 18px;
-    background-color: white;
+    background-color: black;
     display: none;
     overflow: hidden;
 }
