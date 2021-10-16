@@ -1,0 +1,10 @@
+  <a href="https://discord.com/api/oauth2/authorize?client_id=873430457289703494&permissions=8&scope=bot" target="_blank">
+       <button class="btn">
+            Bot behívása
+        </button>
+ </a>
+  <a href="https://discord.gg/44VAMDfpHY" target="_blank">
+       <button class="btn2">
+            Support szerver
+        </button>
+ </a>

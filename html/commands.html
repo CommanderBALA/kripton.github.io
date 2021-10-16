@@ -1,0 +1,706 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script>document.getElementsByTagName("html")[0].className += " js";</script>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="../css/általános/nav.css">
+  <link rel="stylesheet" href="assets/css/xd.css">
+  <link rel="stylesheet" href="../css/általános/scroll.css">
+  <title>FAQ Template | CodyHouse</title>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="hamburger-menu">
+          <div class="line line-1"></div>
+          <div class="line line-2"></div>
+          <div class="line line-3"></div>
+        </div>
+
+        <ul class="nav-list">
+          <li class="nav-item">
+            <a href="../index.html" class="nav-link">Kezdőlap</a>
+          </li>
+          <li class="nav-item">
+              <a href="commands.html" class="nav-link">• Parancsok •</a>
+            </li>
+          <li class="nav-item">
+            <a href="projects.html" class="nav-link">Infók</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+<header class="cd-header flex flex-column flex-center">
+  <div class="text-component text-center">
+    <h1>Parancsok</h1>
+    <p>Prefix: -</p>
+  </div>
+</header>
+
+<section class="cd-faq js-cd-faq container max-width-md margin-top-lg margin-bottom-lg">
+	<ul class="cd-faq__categories">
+		<li><a class="cd-faq__category cd-faq__category-selected truncate" href="#basics">Általános</a></li>
+		<li><a class="cd-faq__category truncate" href="#mobile">Moderátor</a></li>
+		<li><a class="cd-faq__category truncate" href="#account">Fun</a></li>
+		<li><a class="cd-faq__category truncate" href="#payments">Ticket</a></li>
+		<li><a class="cd-faq__category truncate" href="#privacy">Zene</a></li>
+	</ul> <!-- cd-faq__categories -->
+
+	<div class="cd-faq__items">
+		<ul id="basics" class="cd-faq__group">
+			<li class="cd-faq__title"><h2>Általános parancsok</h2></li>
+			<li class="cd-faq__item">
+				<a class="cd-faq__trigger" href="#0"><span>Help</span></a>
+				<div class="cd-faq__content">
+          <div class="text-component">
+            <p>Használat: -help <br> <br>
+               Leírás:  A bothoz kapcsolódó linkek listája. <br>
+               Szükséges dolgok: [Nincs]</p>
+          </div>
+				</div> <!-- cd-faq__content -->
+			</li>
+
+			<li class="cd-faq__item">
+				<a class="cd-faq__trigger" href="#0"><span>Online</span></a>
+				<div class="cd-faq__content">
+          <div class="text-component">
+            <p>Használat: -online <br><br>
+                Leírás: Kiírja mióta van online a bot. <br>
+                Szükséges dolgok: [Nincs]</p>
+          </div>
+				</div> <!-- cd-faq__content -->
+			</li>
+
+			<li class="cd-faq__item">
+				<a class="cd-faq__trigger" href="#0"><span>Bot</span></a>
+				<div class="cd-faq__content">
+          <div class="text-component">
+            <p>Használat: -bot <br><br>
+                Leírás: Kiírja a botról a fontos információkat. <br>
+                Szükséges dolgok: [Nincs]</p>
+          </div>
+				</div> <!-- cd-faq__content -->
+			</li>
+
+			<li class="cd-faq__item">
+				<a class="cd-faq__trigger" href="#0"><span>Ping</span></a>
+				<div class="cd-faq__content">
+          <div class="text-component">
+            <p>Használat: -ping <br><br>
+                Leírás: Kiírja a bot ping -jét. <br>
+                Szükséges dolgok: [Nincs]</p>
+          </div>
+				</div> <!-- cd-faq__content -->
+			</li>
+            <li class="cd-faq__item">
+				<a class="cd-faq__trigger" href="#0"><span>Avatar</span></a>
+				<div class="cd-faq__content">
+          <div class="text-component">
+            <p>Használat: -avatar [@felhasználó] <br><br>
+                Leírás: Megmutatja a megpingelt felhasználó profilképét. <br>
+                Szükséges dolgok: [Nincs]</p>
+          </div>
+				</div> <!-- cd-faq__content -->
+			</li>
+            <li class="cd-faq__item">
+				<a class="cd-faq__trigger" href="#0"><span>Szerver</span></a>
+				<div class="cd-faq__content">
+          <div class="text-component">
+            <p>Használat: -szerver <br><br>
+                Leírás:   Memutatja a szerver információit (amelyik szerveren használod). <br>
+                Szükséges dolgok: [Nincs]</p>
+          </div>
+				</div> <!-- cd-faq__content -->
+			</li><li class="cd-faq__item">
+				<a class="cd-faq__trigger" href="#0"><span>Szerencsejáték</span></a>
+				<div class="cd-faq__content">
+          <div class="text-component">
+            <p>Használat: -szjatek <br><br>
+                Leírás: A bot 1-100-ig kipörget egy számot és van 1 szám aminek a kipörgetése után a bot ad egy kódot (ha kipörgeted a számot, akkor kapsz egy ajándékot, amit a support szerveren tudod beváltani). <br>
+                Szükséges dolgok: [Nincs]</p>
+          </div>
+				</div> <!-- cd-faq__content -->
+			</li><li class="cd-faq__item">
+				<a class="cd-faq__trigger" href="#0"><span>Covid</span></a>
+				<div class="cd-faq__content">
+          <div class="text-component">
+            <p>Használat: -covid all/[országnév angolul] <br><br>
+                Leírás: Megmutatja a világ eddigi összesített COVID-19 adatait; Megmutatja az adott ország eddigi összesített COVID-19 adatait. <br>
+                Szükséges dolgok: [Nincs]</p>
+          </div>
+				</div> <!-- cd-faq__content -->
+			</li><li class="cd-faq__item">
+				<a class="cd-faq__trigger" href="#0"><span>Igen-Nem</span></a>
+				<div class="cd-faq__content">
+          <div class="text-component">
+            <p>Használat: -igenem [kérdés] <br><br>
+                Leírás: A kérdésre a bot véletlenszerűen válaszol. <br>
+                Szükséges dolgok: [Nincs]</p>
+          </div>
+				</div> <!-- cd-faq__content -->
+			</li><li class="cd-faq__item">
+				<a class="cd-faq__trigger" href="#0"><span>Időjárás</span></a>
+				<div class="cd-faq__content">
+          <div class="text-component">
+            <p>Használat: -időjárás [F / C] [Település név] <br><br>
+                Leírás: Megadja az időjárást az adott településen az általad kiválasztott hőmérsékleti skálában. <br>
+                Szükséges dolgok: [Nincs]</p>
+          </div>
+				</div> <!-- cd-faq__content -->
+			</li>
+            <li class="cd-faq__item">
+				<a class="cd-faq__trigger" href="#0"><span>Rangok</span></a>
+				<div class="cd-faq__content">
+          <div class="text-component">
+            <p>Használat: -rangok <br><br>
+                Leírás: Kiírja a szerveren lévő összes rangot. <br>
+                Szükséges dolgok: [Nincs]</p>
+          </div>
+				</div> <!-- cd-faq__content -->
+			</li>
+            <li class="cd-faq__item">
+				<a class="cd-faq__trigger" href="#0"><span>Számolás</span></a>
+				<div class="cd-faq__content">
+          <div class="text-component">
+            <p>Használat: -calc [művelet] <br><br>
+                Leírás: Be kel írni egy matematikai műveletet (összeadás, szorzás, átváltás, stb...) és az eredményt elküldi neked. <br>
+                Szükséges dolgok: [Nincs]</p>
+          </div>
+				</div> <!-- cd-faq__content -->
+			</li>
+            <li class="cd-faq__item">
+				<a class="cd-faq__trigger" href="#0"><span>Random szám</span></a>
+				<div class="cd-faq__content">
+          <div class="text-component">
+            <p>Használat: -randomsz [szám] <br><br>
+                Leírás: 1-től a beírt számig kisorsol a bot egy számot. <br>
+                Szükséges dolgok: [Nincs]</p>
+          </div>
+				</div> <!-- cd-faq__content -->
+			</li>
+            <li class="cd-faq__item">
+				<a class="cd-faq__trigger" href="#0"><span>Bot ötlet</span></a>
+				<div class="cd-faq__content">
+          <div class="text-component">
+            <p>Használat: -botötlet [ötlet] <br><br>
+                Leírás: Amit ide írsz ötletet azt a support szerverre küldi el a fejlesztőknek. (Minden szerveren használható.) <br>
+                Szükséges dolgok: [Nincs]</p>
+          </div>
+				</div> <!-- cd-faq__content -->
+			</li>
+            <li class="cd-faq__item">
+				<a class="cd-faq__trigger" href="#0"><span>Bot hiba</span></a>
+				<div class="cd-faq__content">
+          <div class="text-component">
+            <p>Használat: -bothiba [hiba] <br><br>
+                Leírás: Ha találtál egy hibát a bot-ban akkor azt írd ide és azt a bot elküldi a fejlesztőknek, és a lehető leghamarabb javítva lesz! <br>
+                Szükséges dolgok: [Nincs]</p>
+          </div>
+				</div> <!-- cd-faq__content -->
+			</li>
+            <li class="cd-faq__item">
+				<a class="cd-faq__trigger" href="#0"><span>Report</span></a>
+				<div class="cd-faq__content">
+          <div class="text-component">
+            <p>Használat: -report [@felhasználó] [indok] <br><br>
+                Leírás: Egy felhasználó jelentése az adott szerver vezetőségének. <br>
+                Szükséges dolgok: [jelentések csatorna]</p>
+          </div>
+				</div> <!-- cd-faq__content -->
+			</li>
+            <li class="cd-faq__item">
+				<a class="cd-faq__trigger" href="#0"><span>Support</span></a>
+				<div class="cd-faq__content">
+          <div class="text-component">
+            <p>Használat: -support <br><br>
+                Leírás: A kérdésedet elküldi a fejlesztőknek akik a lehető leggyorsabban válaszolnak! <br>
+                Szükséges dolgok: [Nincs]</p>
+          </div>
+				</div> <!-- cd-faq__content -->
+			</li>
+            <li class="cd-faq__item">
+				<a class="cd-faq__trigger" href="#0"><span>Szerver ötlet</span></a>
+				<div class="cd-faq__content">
+          <div class="text-component">
+            <p>Használat: -ötlet [ötlet] <br><br>
+                Leírás: Ha van az adott szerveren ötlet nevű csatorna akkor a bot beküldi oda az ötletet. <br>
+                Szükséges dolgok: [ötlet csatorna]</p>
+          </div>
+				</div> <!-- cd-faq__content -->
+			</li>
+            <li class="cd-faq__item">
+				<a class="cd-faq__trigger" href="#0"><span>Szerver hiba</span></a>
+				<div class="cd-faq__content">
+          <div class="text-component">
+            <p>Használat: -hiba [hiba] <br><br>
+                Leírás: Ha van a szerveren hiba nevű csatorna akkor a bot beküldi oda a szerverhibát.<br>
+                Szükséges dolgok: [hiba csatorna]</p>
+          </div>
+				</div> <!-- cd-faq__content -->
+			</li>
+            <li class="cd-faq__item">
+				<a class="cd-faq__trigger" href="#0"><span>Szerverek</span></a>
+				<div class="cd-faq__content">
+          <div class="text-component">
+            <p>Használat: -szerverek <br> <br>
+                Leírás: Szerverlista azokról a szerverekről amiken bent van a bot. <br>
+                Szükséges dolgok: [Nincs]</p>
+          </div>
+				</div> <!-- cd-faq__content -->
+			</li>
+		</ul> <!-- cd-faq__group -->
+        
+
+		<ul id="mobile" class="cd-faq__group">
+			<li class="cd-faq__title"><h2>Moderátor parancsok</h2></li>
+			<li class="cd-faq__item">
+				<a class="cd-faq__trigger" href="#0"><span>Kick</span></a>
+				<div class="cd-faq__content">
+          <div class="text-component">
+            <p>Használat: -kick [@felhasználó] [indok] <br> <br>
+                Leírás: A bot kirúgja a szerverről az említett felhasználót. <br>
+                Szükséges dolgok: [Nincs]</p>
+          </div>
+				</div> <!-- cd-faq__content -->
+			</li>
+            <li class="cd-faq__item">
+				<a class="cd-faq__trigger" href="#0"><span>Ban</span></a>
+				<div class="cd-faq__content">
+          <div class="text-component">
+            <p>Használat: -ban [@említés] [indok] <br> <br>
+                Leírás: A bot kibannolja az említett felhasználót. <br>
+                Szükséges dolgok: [Nincs]</p>
+          </div>
+				</div> <!-- cd-faq__content -->
+			</li>
+            <li class="cd-faq__item">
+				<a class="cd-faq__trigger" href="#0"><span>Mute</span></a>
+				<div class="cd-faq__content">
+          <div class="text-component">
+            <p>Használat: -mute [@felhasználó] [indok] <br> <br>
+                Leírás: Lenémítja a megadott felhasználót, ez csak akkor működik ha van a szervereden némítva rang! <br>
+                Szükséges dolgok: [némítva rang]</p>
+          </div>
+				</div> <!-- cd-faq__content -->
+			</li>
+            <li class="cd-faq__item">
+				<a class="cd-faq__trigger" href="#0"><span>Unmute</span></a>
+				<div class="cd-faq__content">
+          <div class="text-component">
+            <p>Használat: -unmute [@felhasználó] <br> <br>
+                Leírás: Feloldja a némítását az adott tagnak. <br>
+                Szükséges dolgok: [Nincs]</p>
+          </div>
+				</div> <!-- cd-faq__content -->
+			</li>
+            <li class="cd-faq__item">
+				<a class="cd-faq__trigger" href="#0"><span>Clear</span></a>
+				<div class="cd-faq__content">
+          <div class="text-component">
+            <p>Használat: -clear [szám] <br> <br>
+                Leírás: Kitöröl annyi üzenetet amennyi meg van adva (max. 100). <br>
+                Szükséges dolgok: [Nincs]</p>
+          </div>
+				</div> <!-- cd-faq__content -->
+			</li>
+
+			<li class="cd-faq__item">
+				<a class="cd-faq__trigger" href="#0"><span>Nuke</span></a>
+				<div class="cd-faq__content">
+          <div class="text-component">
+            <p>Használat: -nuke <br> <br>
+                Leírás: Kitörli az összes üzenetet a csatornáról. <br>
+                Szükséges dolgok: [Nincs]</p>
+          </div>
+				</div> <!-- cd-faq__content -->
+			</li>
+
+			<li class="cd-faq__item">
+				<a class="cd-faq__trigger" href="#0"><span>Szavazás</span></a>
+				<div class="cd-faq__content">
+          <div class="text-component">
+            <p>Használat: -szavazás [#csatorna] [szöveg] <br> <br>
+                Leírás: Kitesz egy szavazást az adott csatornára. <br>
+                Szükséges dolgok: [Nincs]</p>
+          </div>
+				</div> <!-- cd-faq__content -->
+			</li>
+            <li class="cd-faq__item">
+				<a class="cd-faq__trigger" href="#0"><span>Nyereményjáték</span></a>
+				<div class="cd-faq__content">
+          <div class="text-component">
+            <p>Használat: -gw [idő s/h/d/m] [nyertesek száma] [nyeremény] <br> <br>
+                Leírás: Elindít egy nyereményjátékot a megadott feltételekkel. <br>
+                Szükséges dolgok: [Nincs]</p>
+          </div>
+				</div> <!-- cd-faq__content -->
+			</li>
+            <li class="cd-faq__item">
+				<a class="cd-faq__trigger" href="#0"><span>Embed</span></a>
+				<div class="cd-faq__content">
+          <div class="text-component">
+            <p>Használat: -embed [Hex color code / szín név angolul nagy betűvel] [Cím megadása / ha ne egyen cím : nem] [igen / nem ha legyen e időpont] [igen: legyen-e lábrész / nem: ha nem] [embed szövege]  <br> <br>
+                Leírás: A beírt üzenetet embed formában küldi el. <br>
+                Szükséges dolgok: [Nincs]</p>
+          </div>
+				</div> <!-- cd-faq__content -->
+			</li>
+            <li class="cd-faq__item">
+				<a class="cd-faq__trigger" href="#0"><span>Say</span></a>
+				<div class="cd-faq__content">
+          <div class="text-component">
+            <p>Használat: -say <br> <br>
+                Leírás: A beírt üzenetet a bot úgy írja ki mint ha ő írta volna. <br>
+                Szükséges dolgok: [Nincs]</p>
+          </div>
+				</div> <!-- cd-faq__content -->
+			</li>
+            <li class="cd-faq__item">
+				<a class="cd-faq__trigger" href="#0"><span>Szervernév</span></a>
+				<div class="cd-faq__content">
+          <div class="text-component">
+            <p>Használat: -sznév [név] <br> <br>
+                Leírás: Ezzel a parancsal a bot a beírt névre változtatja meg a szervered nevét. <br>
+                Szükséges dolgok: [Nincs]</p>
+          </div>
+				</div> <!-- cd-faq__content -->
+			</li>
+            <li class="cd-faq__item">
+				<a class="cd-faq__trigger" href="#0"><span>Ascii</span></a>
+				<div class="cd-faq__content">
+          <div class="text-component">
+            <p>Használat: -ascii [szöveg] <br> <br>
+                Leírás: A bot küld egy ascii üzenetet a megadott szöveggel. <br>
+                Szükséges dolgok: [Nincs]</p>
+          </div>
+				</div> <!-- cd-faq__content -->
+			</li>
+            <li class="cd-faq__item">
+				<a class="cd-faq__trigger" href="#0"><span>Warn</span></a>
+				<div class="cd-faq__content">
+          <div class="text-component">
+            <p>Használat: -warn [@felhasználó] [indok] <br> <br>
+                Leírás: Felhasználó figyelmeztetése. <br>
+                Szükséges dolgok: [Nincs]</p>
+          </div>
+				</div> <!-- cd-faq__content -->
+			</li>
+            <li class="cd-faq__item">
+				<a class="cd-faq__trigger" href="#0"><span>Rang hozzáadás</span></a>
+				<div class="cd-faq__content">
+          <div class="text-component">
+            <p>Használat: -rangad [@felhasználó] [@rang] <br> <br>
+                Leírás: Ráadja a felhasználóra a rangot. <br>
+                Szükséges dolgok: [Nincs]</p>
+          </div>
+				</div> <!-- cd-faq__content -->
+			</li>
+            <li class="cd-faq__item">
+				<a class="cd-faq__trigger" href="#0"><span>Rang elvétel</span></a>
+				<div class="cd-faq__content">
+          <div class="text-component">
+            <p>Használat: -rangelvesz [@felhasználó] [@rang] <br> <br>
+                Leírás: Elveszi a felhasználótol a rangot. <br>
+                Szükséges dolgok: [Nincs]</p>
+          </div>
+				</div> <!-- cd-faq__content -->
+			</li>
+            <li class="cd-faq__item">
+				<a class="cd-faq__trigger" href="#0"><span>Rang készítés</span></a>
+				<div class="cd-faq__content">
+          <div class="text-component">
+            <p>Használat: -rangcsinálás [hex color kód pl.: #ffffff ] [rang neve] <br> <br>
+                Leírás: A bot létrehozza az adott rangot. <br>
+                Szükséges dolgok: [Nincs]</p>
+          </div>
+				</div> <!-- cd-faq__content -->
+			</li>
+            <li class="cd-faq__item">
+				<a class="cd-faq__trigger" href="#0"><span>AFK csatorna beállítása</span></a>
+				<div class="cd-faq__content">
+          <div class="text-component">
+            <p>Használat: -setAFK [csatorna neve] <br> <br>
+                Leírás: A bot beállítja a megnevezett csatornát afk csatornának. <br>
+                Szükséges dolgok: [Nincs]</p>
+          </div>
+				</div> <!-- cd-faq__content -->
+			</li>
+            <li class="cd-faq__item">
+				<a class="cd-faq__trigger" href="#0"><span>Spoileres üzenet</span></a>
+				<div class="cd-faq__content">
+          <div class="text-component">
+            <p>Használat: -spoiler [üzenet] <br> <br>
+                Leírás: A bot elküldi az üzenetet spoilerként. <br>
+                Szükséges dolgok: [Nincs]</p>
+          </div>
+				</div> <!-- cd-faq__content -->
+			</li>
+		</ul> <!-- cd-faq__group -->
+
+		<ul id="account" class="cd-faq__group">
+			<li class="cd-faq__title"><h2>Fun parancsok</h2></li>
+			<li class="cd-faq__item">
+				<a class="cd-faq__trigger" href="#0"><span>Meme</span></a>
+				<div class="cd-faq__content">
+          <div class="text-component">
+            <p>Használat: -meme <br> <br>
+                Leírás: A bot küld egy random memet. <br>
+                Szükséges dolgok: [Nincs]</p>
+          </div>
+				</div> <!-- cd-faq__content -->
+			</li>
+
+            <li class="cd-faq__item">
+				<a class="cd-faq__trigger" href="#0"><span>IQ</span></a>
+				<div class="cd-faq__content">
+          <div class="text-component">
+            <p>Használat: -iq [@felhasználó] <br> <br>
+                Leírás: A bot memondja a megjelölt felhasználó IQ szintjét. <br>
+                Szükséges dolgok: [Nincs]</p>
+          </div>
+				</div> <!-- cd-faq__content -->
+			</li>
+            <li class="cd-faq__item">
+				<a class="cd-faq__trigger" href="#0"><span>Állatos kép</span></a>
+				<div class="cd-faq__content">
+          <div class="text-component">
+            <p>Használat: -állat [kutya/macska/koala/panda/vöröspanda/róka/madár] <br> <br>
+                Leírás: Küld egy állatos képet (cukii :3 ). <br>
+                Szükséges dolgok: [Nincs]</p>
+          </div>
+				</div> <!-- cd-faq__content -->
+			</li>
+            <li class="cd-faq__item">
+				<a class="cd-faq__trigger" href="#0"><span>Kő, Papír, Olló</span></a>
+				<div class="cd-faq__content">
+          <div class="text-component">
+            <p>Használat: -kpo [kő/papír/olló] <br> <br>
+                Leírás: Kő-papír-olló játék. <br>
+                Szükséges dolgok: [Nincs]</p>
+          </div>
+				</div> <!-- cd-faq__content -->
+			</li>
+            <li class="cd-faq__item">
+				<a class="cd-faq__trigger" href="#0"><span>Slot Machine</span></a>
+				<div class="cd-faq__content">
+          <div class="text-component">
+            <p>Használat: -slot <br> <br>
+                Leírás: Nyerőgépes játék. <br>
+                Szükséges dolgok: [Nincs]</p>
+          </div>
+				</div> <!-- cd-faq__content -->
+			</li>
+            <li class="cd-faq__item">
+				<a class="cd-faq__trigger" href="#0"><span>Google Keresés</span></a>
+				<div class="cd-faq__content">
+          <div class="text-component">
+            <p>Használat: -google [szöveg] <br> <br>
+                Leírás: A bot rákeres a megadott szövegre a GOOGLE-on. <br>
+                Szükséges dolgok: [Nincs]</p>
+          </div>
+				</div> <!-- cd-faq__content -->
+			</li>
+            <li class="cd-faq__item">
+				<a class="cd-faq__trigger" href="#0"><span>Crypto Árfolyam</span></a>
+				<div class="cd-faq__content">
+          <div class="text-component">
+            <p>Használat: -crypto [huf/eur/usd] <br> <br>
+                Leírás: Nyerőgépes játék. <br>
+                Szükséges dolgok: [Nincs]</p>
+          </div>
+				</div> <!-- cd-faq__content -->
+			</li>
+            <li class="cd-faq__item">
+				<a class="cd-faq__trigger" href="#0"><span>Érme</span></a>
+				<div class="cd-faq__content">
+          <div class="text-component">
+            <p>Használat: -érme <br> <br>
+                Leírás: Érme feldobás. <br>
+                Szükséges dolgok: [Nincs]</p>
+          </div>
+				</div> <!-- cd-faq__content -->
+			</li>
+            <li class="cd-faq__item">
+				<a class="cd-faq__trigger" href="#0"><span>Vírus Teszt</span></a>
+				<div class="cd-faq__content">
+          <div class="text-component">
+            <p>Használat: -teszt [@felhasználó] [vírus neve] <br> <br>
+                Leírás: A bot megmondja hogy az adott felhasználó pozitív vagy negatív az adott vírusra. <br>
+                Szükséges dolgok: [Nincs]</p>
+          </div>
+				</div> <!-- cd-faq__content -->
+			</li>
+		</ul> <!-- cd-faq__group -->
+
+		<ul id="payments" class="cd-faq__group">
+			<li class="cd-faq__title"><h2>Ticket parancsok</h2></li>
+			<li class="cd-faq__item">
+				<a class="cd-faq__trigger" href="#0"><span>Ticket Nyitás</span></a>
+				<div class="cd-faq__content">
+          <div class="text-component">
+            <p>Használat: -ticket <br> <br>
+                Leírás: Ticket nyitása. <br>
+                Szükséges dolgok: [Nincs]</p>
+          </div>
+				</div> <!-- cd-faq__content -->
+			</li>
+
+            <li class="cd-faq__item">
+				<a class="cd-faq__trigger" href="#0"><span>Ticket Zárás</span></a>
+				<div class="cd-faq__content">
+          <div class="text-component">
+            <p>Használat: -close <br> <br>
+                Leírás: Ticket bezárása. <br>
+                Szükséges dolgok: [Nincs]</p>
+          </div>
+				</div> <!-- cd-faq__content -->
+			</li>
+            <li class="cd-faq__item">
+				<a class="cd-faq__trigger" href="#0"><span>Ticket Setup</span></a>
+				<div class="cd-faq__content">
+          <div class="text-component">
+            <p>Használat: -tsetup <br> <br>
+                Leírás: Megcsinálja a TICKET kategóriát. <br>
+                Szükséges dolgok: [Nincs]</p>
+          </div>
+				</div> <!-- cd-faq__content -->
+			</li>
+            <li class="cd-faq__item">
+				<a class="cd-faq__trigger" href="#0"><span>Ticket Log</span></a>
+				<div class="cd-faq__content">
+          <div class="text-component">
+            <p>Használat: -tsetup log <br> <br>
+                Leírás: Megcsinálja a log csatornát ahova minden ticket nyitást/zárást logol. <br>
+                Szükséges dolgok: [Nincs]</p>
+          </div>
+				</div> <!-- cd-faq__content -->
+			</li>
+            <li class="cd-faq__item">
+				<a class="cd-faq__trigger" href="#0"><span>Ticket Info</span></a>
+				<div class="cd-faq__content">
+          <div class="text-component">
+            <p>Használat: -tsetup info <br> <br>
+                Leírás: Készít egy ticket-infó csatornát. <br>
+                Szükséges dolgok: [Nincs]</p>
+          </div>
+				</div> <!-- cd-faq__content -->
+			</li>
+            <li class="cd-faq__item">
+				<a class="cd-faq__trigger" href="#0"><span>Ticket Setup Törlés</span></a>
+				<div class="cd-faq__content">
+          <div class="text-component">
+            <p>Használat: -tsetuptörlés <br> <br>
+                Leírás: Kitörli a setupolt dolgokat (csatornák, kategória). <br>
+                Szükséges dolgok: [Nincs]</p>
+          </div>
+				</div> <!-- cd-faq__content -->
+			</li>
+		</ul> <!-- cd-faq__group -->
+
+		<ul id="privacy" class="cd-faq__group">
+			<li class="cd-faq__title"><h2>Zene parancsok</h2></li>
+            <li class="cd-faq__item">
+				<a class="cd-faq__trigger" href="#0"><span>Play</span></a>
+				<div class="cd-faq__content">
+          <div class="text-component">
+            <p>Használat: -play [zene] <br> <br>
+                Leírás: A bot lejátsza az adott zenét. <br>
+                Szükséges dolgok: [Nincs]</p>
+          </div>
+				</div> <!-- cd-faq__content -->
+			</li>
+            <li class="cd-faq__item">
+				<a class="cd-faq__trigger" href="#0"><span>Skip</span></a>
+				<div class="cd-faq__content">
+          <div class="text-component">
+            <p>Használat: -skip <br> <br>
+                Leírás: A bot kihagyja az adott zenét. <br>
+                Szükséges dolgok: [Nincs]</p>
+          </div>
+				</div> <!-- cd-faq__content -->
+			</li>
+            <li class="cd-faq__item">
+				<a class="cd-faq__trigger" href="#0"><span>Repeat</span></a>
+				<div class="cd-faq__content">
+          <div class="text-component">
+            <p>Használat: -repeat <br> <br>
+                Leírás: A bot a számot újra megismétli. <br>
+                Szükséges dolgok: [Nincs]</p>
+          </div>
+				</div> <!-- cd-faq__content -->
+			</li>
+            <li class="cd-faq__item">
+				<a class="cd-faq__trigger" href="#0"><span>Pause</span></a>
+				<div class="cd-faq__content">
+          <div class="text-component">
+            <p>Használat: -pause <br> <br>
+                Leírás: Zene megállítása. <br>
+                Szükséges dolgok: [Nincs]</p>
+          </div>
+				</div> <!-- cd-faq__content -->
+			</li>
+            <li class="cd-faq__item">
+				<a class="cd-faq__trigger" href="#0"><span>Resume</span></a>
+				<div class="cd-faq__content">
+          <div class="text-component">
+            <p>Használat: -resume <br> <br>
+                Leírás: A zene folytatása. <br>
+                Szükséges dolgok: [Nincs]</p>
+          </div>
+				</div> <!-- cd-faq__content -->
+			</li>
+            <li class="cd-faq__item">
+				<a class="cd-faq__trigger" href="#0"><span>Vége</span></a>
+				<div class="cd-faq__content">
+          <div class="text-component">
+            <p>Használat: -vége <br> <br>
+                Leírás: A bot kilép a hangcsatornáról. <br>
+                Szükséges dolgok: [Nincs]</p>
+          </div>
+				</div> <!-- cd-faq__content -->
+			</li>
+            <li class="cd-faq__item">
+				<a class="cd-faq__trigger" href="#0"><span>Volume</span></a>
+				<div class="cd-faq__content">
+          <div class="text-component">
+            <p>Használat: -volume alap/[szám] <br> <br>
+                Leírás: Készít egy ticket-infó csatornát (szám 1-100). <br>
+                Szükséges dolgok: [Nincs]</p>
+          </div>
+				</div> <!-- cd-faq__content -->
+			</li>
+            <li class="cd-faq__item">
+				<a class="cd-faq__trigger" href="#0"><span>Queue</span></a>
+				<div class="cd-faq__content">
+          <div class="text-component">
+            <p>Használat: -queue <br> <br>
+                Leírás: A bot listázza a kért zenéket. <br>
+                Szükséges dolgok: [Nincs]</p>
+          </div>
+				</div> <!-- cd-faq__content -->
+			</li>
+            <li class="cd-faq__item">
+				<a class="cd-faq__trigger" href="#0"><span>Lyrics</span></a>
+				<div class="cd-faq__content">
+          <div class="text-component">
+            <p>Használat: -lyrics <br> <br>
+                Leírás: A zene szövege. <br>
+                Szükséges dolgok: [Nincs]</p>
+          </div>
+				</div> <!-- cd-faq__content -->
+			</li>
+
+		</ul> <!-- cd-faq__group -->
+	</div> <!-- cd-faq__items -->
+
+	<a href="#0" class="cd-faq__close-panel text-replace">Close</a>
+  
+  <div class="cd-faq__overlay" aria-hidden="true"></div>
+</section> <!-- cd-faq -->
+<script src="assets/js/util.js"></script> <!-- util functions included in the CodyHouse framework -->
+<script src="assets/js/main.js"></script> 
+<script src="../script.js"></script>
+
+</body>
+</html>
