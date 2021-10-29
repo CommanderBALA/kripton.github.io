@@ -45,6 +45,13 @@ p {
     padding: 0;
   }
 
+.dmca {
+    position: relative;
+    top: 100px;
+    width: 200px;
+    height: 60px;
+}
+
 .container {
     display: flex;
     flex-direction: row;
