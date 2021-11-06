@@ -35,8 +35,8 @@ h1 {
 p {
     color: white;
     position: relative;
-    top: 3.5cm;
-    left: 150px;
+    text-align: center;
+    top: 200px;
     font-size: 33px;
 }
 
@@ -44,13 +44,6 @@ p {
     margin: 0;
     padding: 0;
   }
-
-.dmca {
-    position: relative;
-    top: 100px;
-    width: 200px;
-    height: 60px;
-}
 
 .container {
     display: flex;
@@ -64,14 +57,14 @@ p {
 .btn-1 {
   width: 200px;
   height: 80px;
-  color: wheat;
+  color: white;
   background-color: rgb(117, 2, 2);
   border-radius: 20px;
   box-shadow: inset 0 0 rgb(182, 0, 0);
   transition: ease-out 0.3s;
   font-size: 1.1rem;
-  left: 3.5cm;
   position: relative;
+  top: 50px;
   outline: none;
   border: none;
   cursor: pointer;
@@ -91,8 +84,8 @@ p {
   box-shadow: inset 0 0 rgb(182, 0, 0);
   transition: ease-out 0.3s;
   font-size: 1.1rem;
-  right: 5cm;
   position: relative;
+  top: 50px;
   outline: none;
   border: none;
   cursor: pointer;
@@ -103,25 +96,16 @@ p {
   color: white;
 } 
 
-.middle {
-  position: relative;
-  left: -200px;
-  top: 166px;
-}
-.middle-1 {
-  position: relative;
-  left: -150px;
-  top: 60px;
-}
-
 .inner-width {
-  max-width: 1200px;
   display: flex;
+  position: relative;
+  top: 250px;
+  text-align: center;
+  padding-bottom: 100px;
 }
 
 .col {
   flex: 1;
-  text-align: center;
   color: #fff;
   text-transform: uppercase;
 }
